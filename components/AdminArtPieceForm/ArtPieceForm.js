@@ -117,7 +117,7 @@ export default function ArtPieceForm({
           </StyledSelection>
         </StyledFieldset>
         <StyledFieldset>
-          <label htmlFor="heightReal">width: </label>
+          <label htmlFor="widthReal">width: </label>
           <Input
             type="number"
             id="widthReal"
@@ -131,7 +131,7 @@ export default function ArtPieceForm({
             }
             required
           />
-          <label htmlFor="widthReal"> height: </label>
+          <label htmlFor="heightReal"> height: </label>
           <Input
             type="number"
             min="0"

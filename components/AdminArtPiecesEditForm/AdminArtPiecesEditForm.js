@@ -121,18 +121,7 @@ export default function ArtPiecesEditForm({
           </StyledSelection>
         </StyledFieldset>
         <StyledFieldset>
-          <label htmlFor="heightReal">width: </label>
-          <Input
-            type="number"
-            min="0"
-            max="400"
-            id="heightReal"
-            name="heightReal"
-            placeholder="cm"
-            defaultValue={artPieceToEdit.heightReal}
-            required
-          />
-          <label htmlFor="widthReal"> height: </label>
+          <label htmlFor="widthReal"> width: </label>
           <Input
             type="number"
             min="0"
@@ -141,6 +130,17 @@ export default function ArtPiecesEditForm({
             name="widthReal"
             placeholder="cm"
             defaultValue={artPieceToEdit.widthReal}
+            required
+          />
+          <label htmlFor="heightReal">height: </label>
+          <Input
+            type="number"
+            min="0"
+            max="400"
+            id="heightReal"
+            name="heightReal"
+            placeholder="cm"
+            defaultValue={artPieceToEdit.heightReal}
             required
           />
         </StyledFieldset>
