@@ -117,13 +117,13 @@ export default function ArtPieceForm({
           </StyledSelection>
         </StyledFieldset>
         <StyledFieldset>
-          <label htmlFor="widthReal">width: </label>
+          <label htmlFor="widthReal"> width: </label>
           <Input
             type="number"
-            id="widthReal"
-            name="widthReal"
             min="0"
             max="400"
+            id="widthReal"
+            name="widthReal"
             placeholder="cm"
             defaultValue={currentFormData.widthReal}
             onChange={(event) =>
@@ -134,10 +134,10 @@ export default function ArtPieceForm({
           <label htmlFor="heightReal"> height: </label>
           <Input
             type="number"
-            min="0"
-            max="400"
             id="heightReal"
             name="heightReal"
+            min="0"
+            max="400"
             placeholder="cm"
             defaultValue={currentFormData.heightReal}
             onChange={(event) =>
